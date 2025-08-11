@@ -1,4 +1,3 @@
-"""
 # RL Shaper Toolkit
 
 A straightforward Python library for implementing potential-based reward shaping in reinforcement learning.
@@ -39,4 +38,3 @@ shaped_reward = shaper.get_shaped_reward(state_t, state_t_plus_1, reward_t)
 print(f"Original reward: {reward_t}")
 print(f"Shaped reward: {shaped_reward}")
 ```
-"""
